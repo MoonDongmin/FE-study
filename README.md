@@ -1,5 +1,9 @@
 # HTML5 웹 프로그래밍 입문
+
+<div align="center">
 <img width="200" height="300" src="https://image.aladin.co.kr/product/32220/59/cover500/k942834629_1.jpg"><br>
+</div>
+
 이 책을 활용하여 **웹 프로그래밍**이라는 과목을 공부중...<br>
 개인 정리는 노션을 통해서 정리
 
