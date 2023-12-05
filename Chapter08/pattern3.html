@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            width: 960px;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+
+        #menu {
+            width: 700px;
+            float: left;
+        }
+
+        #section {
+            width: 700px;
+            float: right;
+        }
+
+        li {
+            list-style: none;
+        }
+
+        @media screen and (max-width: 767px) {
+            body {
+                width: auto
+            }
+
+            #menu {
+                width: auto;
+                float: none;
+            }
+
+            #sectio {
+                width: auto;
+                float: none;
+            }
+        }
+    </style>
+</head>
+<body>
+<div id="section">
+    <h1>HI</h1>
+    <p>안녕하세요</p>
+</div>
+<div id="menu">
+    <ul>
+        <li>메뉴A</li>
+        <li>메뉴B</li>
+        <li>메뉴C</li>
+    </ul>
+</div>
+</body>
+</html>
