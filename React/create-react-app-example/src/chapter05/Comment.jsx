@@ -20,12 +20,12 @@ const styles = {
         justifyContent: "center",
     },
     nameText: {
-        color: "black",
+        color: "white",
         fontSize: 16,
         fontWeight: "bold",
     },
     commentText: {
-        color: "black",
+        color: "white",
         fontSize: 16,
     }
 };
@@ -34,7 +34,7 @@ function Comment(props) {
     return (
         <div style={styles.wrapper}>
             <div style={styles.imageContainer}>
-                <img src="https://upload.wikimedia.org/wikipedia/commons/8/89/Protrait_Placeholder.png"
+                <img src="https://img1.daumcdn.net/thumb/R1280x0/?fname=http://t1.daumcdn.net/brunch/service/user/7r5X/image/9djEiPBPMLu_IvCYyvRPwmZkM1g.jpg"
                      style={styles.image}/>
             </div>
 
