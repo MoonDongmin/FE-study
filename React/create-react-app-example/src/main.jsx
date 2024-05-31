@@ -3,11 +3,11 @@ import ReactDOM from 'react-dom/client'
 import './index.css'
 import Library from "./chapter03/Library.jsx";
 import Clock from "./craet-clock/Clock.jsx";
+import CommentList from "./chapter05/CommentList.jsx";
 
-setInterval(()=>{
-    ReactDOM.createRoot(document.getElementById('root')).render(
-        <React.StrictMode>
-            <Clock/>
-        </React.StrictMode>,
-    )
-})
+ReactDOM.createRoot(document.getElementById('root')).render(
+    <React.StrictMode>
+        <CommentList/>
+    </React.StrictMode>,
+);
+
