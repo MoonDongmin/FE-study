@@ -22,7 +22,7 @@ class Notification extends React.Component {
         // 아무런 데이터를 가지고 있지 않음
         this.state = {};
     }
-    
+
     render() {
         return (
             <div style={styles.wrapper}>
